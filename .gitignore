@@ -1,0 +1,25 @@
+# ========== CMake build ==========
+build/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# ========== Go build artifacts ==========
+*.exe
+*.test
+*.out
+/vendor/
+
+# ========== Compiled objects ==========
+*.o
+*.a
+*.so
+*.dylib
+
+# ========== IDE ==========
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
